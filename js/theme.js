@@ -20,10 +20,8 @@ function setUpLightTheme() {
 
 function initializeColors() {
     if (sessionStorage.getItem('theme') === 'dark') {
-        document.getElementById('theme-icon').classList.replace('fa-sun-o', 'fa-moon-o')
         setUpDarkTheme()
     } else if (sessionStorage.getItem('theme') === 'light') {
-        document.getElementById('theme-icon').classList.replace('fa-moon-o', 'fa-sun-o')
         setUpLightTheme();
     }
 }
@@ -44,20 +42,4 @@ const checkbox = document.getElementById('theme-switch');
 
 checkbox.addEventListener('click', ()=>{
     updateColors();
-})
-
-const language = document.getElementById('lan-switch');
-
-let lan = false;
-language.addEventListener('click', ()=>{
-    if (stat) {
-        document.getElementById("site-flash-title").innerHTML = "Blockzincir tabanlı şeffaf oy sayım sistemi";
-        document.getElementById("language-selection").innerHTML = "EN";
-    }
-    else {
-        document.getElementById("site-flash-title").innerHTML = "Transparent and Trustworthy Vote Counting based on Web3";
-        document.getElementById("language-selection").innerHTML = "TR";
-    }
-    stat = !stat;
-    document.getElementById("theme-switch").classList.toggle('dark');
 })
