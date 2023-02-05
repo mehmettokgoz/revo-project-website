@@ -23,17 +23,15 @@ function initializeColors() {
         setUpDarkTheme()
     } else if (sessionStorage.getItem('theme') === 'light') {
         setUpLightTheme();
+    } else {
+        setUpDarkTheme();
     }
 }
 
 function updateColors() {
-    if (sessionStorage.getItem("theme")) {
-        if (sessionStorage.getItem('theme') === 'dark') {
-            setUpLightTheme();
-        } else if (sessionStorage.getItem('theme') === 'light') {
-            setUpDarkTheme();
-        }
-    } else {
+    if (sessionStorage.getItem('theme') === 'dark') {
+        setUpLightTheme();
+    } else if (sessionStorage.getItem('theme') === 'light') {
         setUpDarkTheme();
     }
 }

@@ -17,18 +17,16 @@ function initializeLanguage() {
         setUpTurkishContent();
     } else if (sessionStorage.getItem('language') === 'EN') {
         setUpEnglishContent();
+    } else {
+        setUpEnglishContent();
     }
 }
 
 function updateLanguage() {
-    if (sessionStorage.getItem("language")) {
-        if (sessionStorage.getItem('language') === 'TR') {
-            setUpEnglishContent();
-        } else if (sessionStorage.getItem('language') === 'EN') {
-            setUpTurkishContent();
-        }
-    } else {
+    if (sessionStorage.getItem('language') === 'TR') {
         setUpEnglishContent();
+    } else if (sessionStorage.getItem('language') === 'EN') {
+        setUpTurkishContent();
     }
 }
 
