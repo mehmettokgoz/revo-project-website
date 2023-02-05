@@ -1,18 +1,44 @@
+
 initializeLanguage();
+
+function updateAllTexts() {
+    let lan = sessionStorage.getItem('language');
+
+    let menu_items = document.getElementsByClassName("menu-link");
+
+    for (let i = 0; i < menu_items.length; i++) {
+        menu_items[i].innerHTML = menu[i][lan];
+    }
+
+    document.getElementById("language-selection").innerHTML = langs[lan];
+
+    document.getElementById("site-flash-title").innerHTML = flashContent.title[lan];
+    document.getElementById("site-flash-content").innerHTML = flashContent.content[lan];
+
+    document.getElementById("vision-title").innerHTML = visionSection.title[lan];
+    document.getElementById("vision-content").innerHTML = visionSection.content[lan];
+
+    document.getElementById("how-it-works-title").innerHTML = howItWorks.title[lan];
+    document.getElementById("how-it-works-content").innerHTML = howItWorks.content[lan];
+
+    document.getElementById("team-title").innerHTML = team.title[lan];
+
+    document.getElementById("contact-title").innerHTML = contact.title[lan];
+    document.getElementById("contact-content").innerHTML = contact.content[lan];
+}
 
 function setUpEnglishContent() {
     sessionStorage.setItem("language", "EN")
-    document.getElementById("site-flash-title").innerHTML = "Transparent and Trustworthy Vote Counting based on Web3";
-    document.getElementById("language-selection").innerHTML = "TR";
+    updateAllTexts();
 }
 
 function setUpTurkishContent() {
     sessionStorage.setItem("language", "TR");
-    document.getElementById("site-flash-title").innerHTML = "Blockzincir tabanlı şeffaf oy sayım sistemi";
-    document.getElementById("language-selection").innerHTML = "EN";
+    updateAllTexts();
 }
 
 function initializeLanguage() {
+
     if (sessionStorage.getItem('language') === 'TR') {
         setUpTurkishContent();
     } else if (sessionStorage.getItem('language') === 'EN') {
