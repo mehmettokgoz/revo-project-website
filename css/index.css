@@ -188,6 +188,7 @@ li.menu_button {
 }
 
 .team-member {
+    width: 150px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -232,6 +233,10 @@ li.menu_button {
         font-size: 40px;
     }
 
+    .team-members {
+        justify-content: center;
+    }
+    
     .team-member {
         margin-top: 10px;
     }
