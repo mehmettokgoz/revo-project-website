@@ -39,13 +39,17 @@ function setUpTurkishContent() {
 
 function initializeLanguage() {
 
-    if (sessionStorage.getItem('language') === 'TR') {
-        setUpTurkishContent();
-    } else if (sessionStorage.getItem('language') === 'EN') {
-        setUpEnglishContent();
-    } else {
-        setUpEnglishContent();
-    }
+    // Commented for now until english implemented
+
+    // if (sessionStorage.getItem('language') === 'TR') {
+    //     setUpTurkishContent();
+    // } else if (sessionStorage.getItem('language') === 'EN') {
+    //     setUpEnglishContent();
+    // } else {
+    //     setUpEnglishContent();
+    // }
+
+    setUpTurkishContent();
 }
 
 function updateLanguage() {

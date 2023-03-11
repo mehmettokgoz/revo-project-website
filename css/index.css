@@ -108,7 +108,7 @@ a.menu-link {
 }
 
 li.menu_button {
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 5px;
 }
 
@@ -254,3 +254,51 @@ li.menu_button {
         width: 95%;
     }
   }
+
+  
+ @media screen and (max-width: 1450px) {
+     .menu_text {
+         display: none !important;
+     }
+ }
+
+.daylight {
+    cursor: pointer;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.team-image {
+    width: 120px;
+}
+
+.team-lead {
+    margin: 1rem auto 0 auto;
+    width: fit-content;
+}
+
+.team-info {
+    font-weight: 600;
+    text-align: center;
+}
+
+#contact {
+    margin: 4rem auto 4rem auto;
+}
+
+@media screen and (max-width: 1600px) {
+    .item-link {
+        display: none !important;
+    }
+}
+
+.dp-none {
+    display: none;
+}
