@@ -4,7 +4,7 @@ function setUpDarkTheme() {
     var r = document.querySelector(':root');
     sessionStorage.setItem('theme', 'dark');
     r.style.setProperty('--color-toggle-accent', '#a076ce');
-    r.style.setProperty('--background-color', '#1c1c1c');
+    r.style.setProperty('--background-color', '#1f1f1f');
     r.style.setProperty('--text-color', '#ffffff');
     document.getElementById('theme-icon').classList.replace('fa-sun-o', 'fa-moon-o')
 }

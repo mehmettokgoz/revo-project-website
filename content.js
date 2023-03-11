@@ -5,7 +5,7 @@ const langs = {
 
 const menu = [
     {
-        "TR": "Vizyonumuz",
+        "TR": "Misyonumuz",
         "EN": "Our Vision",
     },
     {
@@ -25,7 +25,7 @@ const menu = [
 const flashContent = {
     title: {
         "EN": "Transparent and Trustworthy Vote Counting based on Web3",
-        "TR": "Blockzincir tabanlı şeffaf oy sayım sistemi",
+        "TR": "Blok Zincir Tabanlı Şeffaf Oy Sayma Uygulaması",
     },
     content: {
         "EN": `
@@ -35,10 +35,13 @@ const flashContent = {
          Maecenas finibus nisl eu leo pellentesque, eu egestas libero rutrum. In hac habitasse platea dictumst. 
         `,
         "TR": `
-            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir
-             yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış,
-              aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda
-               Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+            Beş ODTÜ Bilgisayar Mühendisliği öğrencisi olarak, veri güvenilirliği ile ilgili sorunlar üzerine
+                    yaptığımız
+                    araştırmalar sonucunda bu projeye başladık. Merkezi sistemlerde saklanan verilerin manipülasyona
+                    açık olması,
+                    güvensizliği beraberinde getiriyor. Halkın tamamını ilgilendiren konularda, blok zincir tabanlı bir
+                    sistem ile verilere
+                    sahip olması, aracı kurumları ortadan kaldırarak güvensizlik sorununu da çözecektir.
         `,
     }
 }
@@ -46,7 +49,7 @@ const flashContent = {
 const visionSection = {
     title: {
         "EN": "Our Vision",
-        "TR": "Vizyonumuz",
+        "TR": "Misyonumuz",
     },
     content: {
         "EN": `
@@ -56,10 +59,11 @@ const visionSection = {
             Maecenas eu sapien ut massa dapibus blandit ac quis lectus. Aenean et ante id neque tempus maximus. Nulla aliquet iaculis ligula sodales facilisis. 
         `,
         "TR": `
-            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak
-             karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye 
-             de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık
-              yazılımları ile popüler olmuştur.
+            Anlık seçim sonuçları, oy sayımı sürecinde hem siyasi partiler hem de halk için önemli bir veridir.
+                    Günümüzde bu veri,
+                    merkezi sistemler tarafından halka sunulmaktadır. Projemizdeki amacımız, sandık başındaki siyasi
+                    parti görevlilerinin
+                    edindikleri oy verilerini arada merkezi bir kurum olmadan halkla paylaşmalarını sağlamaktır.
         `,
     }
 }
@@ -92,17 +96,41 @@ const howItWorks = {
         </p>
             `,
         "TR": `
-            <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat 
-            numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak
-             kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 
-             1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum 
-             sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</p>
-            <img class="section-content-image" src="images/example.jpeg"></img>
-            <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat 
-            numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak
-             kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 
-             1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum 
-             sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</p>
+            Proje kapsamında, ana blok zincir ağlarındaki yavaşlık ve işlem ücretleri sorunlarından kaçınmak
+                    için Avalanche subnet
+                    teknolojisini kullanarak özel bir blok zinciri geliştirdik. Oy verileri bu blok zincirinde
+                    saklanmakta ve veri girişleri
+                    akıllı sözleşmeler aracılığıyla denetlenmektedir. Bu sayede, yalnızca yetkilendirilmiş kullanıcılar
+                    oy verisi girişi
+                    yapabilirler.
+                    <br />
+                    <br />
+                    Oy verisi girişi yapmak isteyen kullanıcılar, tarafımızdan geliştirilen mobil uygulama ile sisteme
+                    kayıt olabilirler.
+                    Kayıt olurken, blok zincir ile iletişime geçmelerini
+                    sağlaycak bir cüzdan oluşturabilirler. Daha
+                    sonra, gözlemci olabilecekleri sandıklar üzerinden sisteme kayıtlı siyasi partilerden yetkilendirme
+                    isteyebilirler.
+                    Yetkileri onaylandıktan sonra, oy verilerini blok zincire kaydedebilirler. Veri girişinde bulunan
+                    yetkililerin kimlik bilgileri, gizli kalacak ve halka açık olmayacaktır. Sadece bu yetkililerin
+                    kayıtlı olduğu siyasi partilerin isimleri gözükecektir. Böylece, veri girişi sırasında herhangi bir
+                    kişisel bilgi
+                    paylaşımı yapılmamış olacaktır. Bu sistem sayesinde farklı parti görevlilerinin aynı sandıkta
+                    girdikleri oy sonuçları halka ve karşılaştırmaya açık olacaktır.
+                    <br />
+                    <br />
+                    Graph Protocol ile geliştirdiğimiz indexing sunucumuz ise düzenli olarak blokzincirdeki verileri
+                    işleyecek ve formatlayıp güvenli bir veritabanına yazacaktır. Web uygulamamız, bu veri tabanındaki
+                    verileri
+                    çekip halka sunacaktır. Burada kullanıcı kolaylığını amaçlıyoruz ve normal bir kullanıcı için hızlı
+                    bir şekilde veriye ulaşım sağlıyoruz. Web uygulamamızdaki verilerin doğruluğu ise validator node'lar
+                    tarafından yapılabilecektir. Bu sayede veri hem manipülasyondan uzak hem de hızlı bir şekilde
+                    erişilebilir olacaktır.
+                    <br />
+                    <br />
+                    Kimlik bilgileri ile bize ulaşan ve teknolojik donanıma sahip olan herkese validator node yetkisi
+                    verilecektir. Buradaki amaç ise sistemi olabildiğince merkeziyetsiz hale getirmek ve bireylerin
+                    kontrolünden çıkartmaktır.
             `,
     }    
 }
@@ -122,11 +150,23 @@ const contact = {
             blandit ac quis lectus. Aenean et ante id neque tempus maximus. Nulla aliquet iaculis ligula sodales facilisis. 
         `,
         "TR": `
-            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune
-             kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.
-              Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum
-               pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü
-                yayıncılık yazılımları ile popüler olmuştur.
+            <div class="section-content">
+                    <div>
+                        fazli.balkan@metu.edu.tr
+                    </div>
+                    <div>
+                        mehmet.tokgoz@metu.edu.tr
+                    </div>
+                    <div>
+                        onur.yuce@metu.edu.tr
+                    </div>
+                    <div>
+                        tunahan.dundar@metu.edu.tr
+                    </div>
+                    <div>
+                        mirza.oksuz@metu.edu.tr
+                    </div>
+                </div>
         `,
     }
 }
