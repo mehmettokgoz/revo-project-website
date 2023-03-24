@@ -1,40 +1,40 @@
 const langs = {
-    "TR": "EN",
-    "EN": "TR",
-}
+  TR: "EN",
+  EN: "TR",
+};
 
 const menu = [
-    {
-        "TR": "Misyonumuz",
-        "EN": "Our Vision",
-    },
-    {
-        "TR": "Nasıl çalışır?",
-        "EN": "How it works?",
-    },
-    {
-        "TR": "Takımımız",
-        "EN": "Team",
-    },
-    {
-        "TR": "İletişim",
-        "EN": "Contact",
-    },
-]
+  {
+    TR: "Misyonumuz",
+    EN: "Our Vision",
+  },
+  {
+    TR: "Nasıl çalışır?",
+    EN: "How it works?",
+  },
+  {
+    TR: "Takımımız",
+    EN: "Team",
+  },
+  {
+    TR: "İletişim",
+    EN: "Contact",
+  },
+];
 
 const flashContent = {
-    title: {
-        "EN": "Transparent and Trustworthy Vote Counting based on Web3",
-        "TR": "Blok Zincir Tabanlı Şeffaf Oy Sayma Uygulaması",
-    },
-    content: {
-        "EN": `
+  title: {
+    EN: "Transparent and Trustworthy Vote Counting based on Web3",
+    TR: "Blok Zincir Tabanlı Şeffaf Oy Sayma Uygulaması",
+  },
+  content: {
+    EN: `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, dictum ut sapien vel, pellentesque semper metus. Curabitur finibus orci id odio hendrerit, 
         ac tristique orci posuere. Sed auctor sapien magna. Nam suscipit volutpat lorem, eu pretium libero rutrum non. Sed placerat rhoncus ullamcorper. Duis augue ex, cursus
          nec mattis non, maximus id neque. Mauris tempor rutrum sapien, nec bibendum mauris eleifend interdum. Etiam lobortis est vehicula, maximus massa a, hendrerit justo. 
          Maecenas finibus nisl eu leo pellentesque, eu egestas libero rutrum. In hac habitasse platea dictumst. 
         `,
-        "TR": `
+    TR: `
             Beş ODTÜ Bilgisayar Mühendisliği öğrencisi olarak, veri güvenilirliği ile ilgili sorunlar üzerine
                     yaptığımız
                     araştırmalar sonucunda bu projeye başladık. Merkezi sistemlerde saklanan verilerin manipülasyona
@@ -43,38 +43,38 @@ const flashContent = {
                     sistem ile verilere
                     sahip olması, aracı kurumları ortadan kaldırarak güvensizlik sorununu da çözecektir.
         `,
-    }
-}
+  },
+};
 
 const visionSection = {
-    title: {
-        "EN": "Our Vision",
-        "TR": "Misyonumuz",
-    },
-    content: {
-        "EN": `
+  title: {
+    EN: "Our Vision",
+    TR: "Misyonumuz",
+  },
+  content: {
+    EN: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, dictum ut sapien vel, pellentesque semper metus. Curabitur finibus orci id odio hendrerit, ac tristique orci posuere. 
             Sed auctor sapien magna. Nam suscipit volutpat lorem, eu pretium libero rutrum non. Sed placerat rhoncus ullamcorper. Duis augue ex, cursus nec mattis non, maximus id neque. Mauris tempor rutrum sapien, 
             nec bibendum mauris eleifend interdum. Etiam lobortis est vehicula, maximus massa a, hendrerit justo. Maecenas finibus nisl eu leo pellentesque, eu egestas libero rutrum. In hac habitasse platea dictumst. In sit amet purus nisi. 
             Maecenas eu sapien ut massa dapibus blandit ac quis lectus. Aenean et ante id neque tempus maximus. Nulla aliquet iaculis ligula sodales facilisis. 
         `,
-        "TR": `
+    TR: `
             Anlık seçim sonuçları, oy sayımı sürecinde hem siyasi partiler hem de halk için önemli bir veridir.
                     Günümüzde bu veri,
                     merkezi sistemler tarafından halka sunulmaktadır. Projemizdeki amacımız, sandık başındaki siyasi
                     parti görevlilerinin
                     edindikleri oy verilerini arada merkezi bir kurum olmadan halkla paylaşmalarını sağlamaktır.
         `,
-    }
-}
+  },
+};
 
 const howItWorks = {
-    title: {
-        "EN": "How It Works?",
-        "TR": "Sistem Nasıl Çalışıyor?",
-    },
-    content: {
-        "EN": `
+  title: {
+    EN: "How It Works?",
+    TR: "Sistem Nasıl Çalışıyor?",
+  },
+  content: {
+    EN: `
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, dictum ut sapien vel, pellentesque semper metus.
                 Curabitur finibus orci id odio hendrerit, ac tristique orci posuere. Sed auctor sapien magna. Nam suscipit volutpat lorem, 
@@ -95,14 +95,20 @@ const howItWorks = {
            sodales facilisis.
         </p>
             `,
-        "TR": `
+    TR: `
             Proje kapsamında, ana blok zincir ağlarındaki yavaşlık ve işlem ücretleri sorunlarından kaçınmak
                     için Avalanche subnet
-                    teknolojisini kullanarak özel bir blok zinciri geliştirdik. Oy verileri bu blok zincirinde
+                    teknolojisini kullanarak özel bir blok zinciri geliştirdik. Hedefimiz, üç saat içinde 600 bin işlemi işleyebilecek bir kapasiteye sahip olmak. 
+                    Tek bir blok zinciri, bu yükü yönetmek için yeterli olmayacaktır. Bu nedenle, 
+                    Avalanche Subnet teknolojisi sayesinde sharding yaparak fiziksel olarak blok zincirlerini bölüp hedeflediğimiz etkileşim yükünü yönetebiliriz. 
+                    Bu amaçla, dört farklı subnet kurmayı planlıyoruz. Oy verileri bu blok zincirlerinde
                     saklanmakta ve veri girişleri
                     akıllı sözleşmeler aracılığıyla denetlenmektedir. Bu sayede, yalnızca yetkilendirilmiş kullanıcılar
                     oy verisi girişi
                     yapabilirler.
+                    <br />
+                    <br />
+                    <img class="diagram-img" src="./images/diagram.png"/>
                     <br />
                     <br />
                     Oy verisi girişi yapmak isteyen kullanıcılar, tarafımızdan geliştirilen mobil uygulama ile sisteme
@@ -119,6 +125,13 @@ const howItWorks = {
                     girdikleri oy sonuçları halka ve karşılaştırmaya açık olacaktır.
                     <br />
                     <br />
+                    Parti yetkilileri, geliştirdiğimiz yönetici platformu sayesinde sandık görevlilerini kolaylıkla yönetebiliyorlar. Mobil uygulama üzerinden sisteme 
+                    kayıt olan ve sandık görevi için başvuran kullanıcılar, parti yetkilileri tarafından görüntülenebiliyor. Bu platformda, hiyerarşik bir yetkilendirme 
+                    sistemi oluşturduk. Ülke, il ve ilçe düzeyindeki yetkililer, kendi yetki alanlarına başvuran kullanıcıları sandık görevlisi olarak onaylayabiliyorlar. 
+                    Parti yetkilileri, bu platform aracılığıyla sandık görevlilerini atayabilirler ve hangi sandıkta kaç görevli olduğu veya hangi sandıkta görevli olmadığı 
+                    gibi bilgilere kolayca erişebilirler.
+                    <br />
+                    <br />
                     Graph Protocol ile geliştirdiğimiz indexing sunucumuz ise düzenli olarak blokzincirdeki verileri
                     işleyecek ve formatlayıp güvenli bir veritabanına yazacaktır. Web uygulamamız, bu veri tabanındaki
                     verileri
@@ -129,19 +142,18 @@ const howItWorks = {
                     <br />
                     <br />
                     Kimlik bilgileri ile bize ulaşan ve teknolojik donanıma sahip olan herkese validator node yetkisi
-                    verilecektir. Buradaki amaç ise sistemi olabildiğince merkeziyetsiz hale getirmek ve bireylerin
-                    kontrolünden çıkartmaktır.
+                    vermeyi planlıyoruz. Buradaki amaç ise sistemi olabildiğince merkeziyetsiz hale getirmektir.
             `,
-    }    
-}
+  },
+};
 
 const contact = {
-    title: {
-        "EN": "Contact",
-        "TR": "İletişim",
-    },
-    content: {
-        "EN": `
+  title: {
+    EN: "Contact",
+    TR: "İletişim",
+  },
+  content: {
+    EN: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, dictum ut sapien vel, pellentesque semper metus. Curabitur 
             finibus orci id odio hendrerit, ac tristique orci posuere. Sed auctor sapien magna. Nam suscipit volutpat lorem, eu pretium libero 
             rutrum non. Sed placerat rhoncus ullamcorper. Duis augue ex, cursus nec mattis non, maximus id neque. Mauris tempor rutrum sapien, 
@@ -149,7 +161,7 @@ const contact = {
             pellentesque, eu egestas libero rutrum. In hac habitasse platea dictumst. In sit amet purus nisi. Maecenas eu sapien ut massa dapibus 
             blandit ac quis lectus. Aenean et ante id neque tempus maximus. Nulla aliquet iaculis ligula sodales facilisis. 
         `,
-        "TR": `
+    TR: `
             <div class="section-content">
                     <div>
                         fazli.balkan@metu.edu.tr
@@ -168,12 +180,12 @@ const contact = {
                     </div>
                 </div>
         `,
-    }
-}
+  },
+};
 
 const team = {
-    title: {
-        "TR": "Takımımız",
-        "EN": "Team",
-    }
-}
+  title: {
+    TR: "Takımımız",
+    EN: "Team",
+  },
+};

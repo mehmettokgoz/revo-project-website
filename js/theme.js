@@ -24,7 +24,7 @@ function initializeColors() {
     } else if (sessionStorage.getItem('theme') === 'light') {
         setUpLightTheme();
     } else {
-        setUpDarkTheme();
+        setUpLightTheme();
     }
 }
 
