@@ -23,7 +23,7 @@ const Stack = () => {
                     </a>
 
                     <a className='group/investor inline-flex w-1/2 flex-col items-center md:w-1/5'>
-                        <img className='aspect-square h-[80px] w-[80px] scale-[1.01] object-cover grayscale transition group-hover/investor:mix-blend-normal group-hover/investor:grayscale-0 md:h-[100px] md:w-[100px]' src='https://sanalvm.com/wp-content/uploads/2022/12/pngegg-1-1.png'></img>
+                        <img className='aspect-square h-[80px] w-[80px] scale-[1.01] object-cover grayscale transition group-hover/investor:mix-blend-normal group-hover/investor:grayscale-0 md:h-[100px] md:w-[100px]' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png'></img>
                         <h4 className='mt-4 font-display text-xl font-medium transition group-hover/investor:text-emerald-400'>React Framework</h4>
                         <p className='opacity-40 w-[95%] text-center'>Graph protocol allows us to implement well-defined indexer for our smart contract by listening events. It creates a backup for fast querying using GraphQL.</p>
                     </a>

@@ -13,7 +13,7 @@ function Homepage() {
 
     return (
 
-        <div className='max-w-7xl mx-auto mb-20'>
+        <div className='w-[90%] md:max-w-7xl mx-auto mb-20'>
 
             <Header></Header>
 
@@ -33,7 +33,7 @@ function Homepage() {
 
             <Contact></Contact>
 
-            <h1 className='text-center text-white text-lg mt-20'>© Copyright REVO. All Rights Reserved</h1>
+            <h1 className='text-center text-white text-lg mt-20'>Copyright © 2023 REVO - All rights reserved.</h1>
             <h1 className='text-center text-white text-lg'>The design is inspired from <a className='text-emerald-400' href='https://upstash.com'>Upstash</a>.</h1>
             
 

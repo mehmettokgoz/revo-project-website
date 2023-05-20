@@ -46,23 +46,23 @@ const Motto = () => {
                 }
             </div>
 
-            <div className='w-[90%] mx-auto flex flex-col sm:flex-row justify-between mt-10 text-white gap-5 md:gap-0'>
+            <div className='group/headlines w-[90%] mx-auto flex flex-col sm:flex-row justify-center mt-10 text-white gap-5 md:gap-4'>
 
-                <div className='basis-[32%] bg-white bg-opacity-20 backdrop-blur-xl drop-shadow-lg rounded-xl p-5 transition ease-in-out hover:scale-105' onMouseEnter={() => { setColor("blue") }}>
+                <div className='basis-[32%] bg-white bg-opacity-10 hover:bg-white/80 hover:text-black backdrop-blur-xl drop-shadow-lg rounded-l-3xl rounded-r-xl p-5 transition ease-in-out hover:scale-105' onMouseEnter={() => { setColor("blue") }}>
                     <h1 className='font-bold text-xl'>Secure</h1>
                     <p className='mt-3'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora hic totam assumenda natus ipsa.<br></br><br></br>Quis aliquam rem possimus magnam. Quisquam unde deleniti mollitia sunt voluptatum illum quis molestias dolore aut?
                     </p>
                 </div>
 
-                <div className='basis-[32%] bg-white/20 rounded-xl p-5 transition ease-in-out hover:scale-105' onMouseEnter={() => { setColor("green") }}>
+                <div className='basis-[32%] bg-white/10 hover:bg-white/80 hover:text-black rounded-xl p-5 transition ease-in-out hover:scale-105 relative block overflow-hidden' onMouseEnter={() => { setColor("green") }}>
                     <h1 className='font-bold text-xl'>Public</h1>
                     <p className='mt-3'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora hic totam assumenda natus ipsa <br></br><br></br>Quis aliquam rem possimus magnam. Quisquam unde deleniti mollitia sunt voluptatum illum quis molestias dolore aut?
                     </p>
                 </div>
 
-                <div className='basis-[32%] bg-white/20 rounded-xl p-5 transition ease-in-out hover:scale-105' onMouseEnter={() => { setColor("red") }}>
+                <div className='basis-[32%] bg-white/10 hover:bg-white/80 hover:text-black rounded-l-xl rounded-r-3xl p-5 transition ease-in-out hover:scale-105' onMouseEnter={() => { setColor("red") }}>
                     <h1 className='font-bold text-xl'>Easy-to-use</h1>
                     <p className='mt-3'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora hic totam assumenda natus ipsa <br></br><br></br>Quis aliquam rem possimus magnam. Quisquam unde deleniti mollitia sunt voluptatum illum quis molestias dolore aut?

@@ -13,9 +13,8 @@ const HowItWorks = () => {
                 Proje kapsamında, ana blok zincir ağlarındaki yavaşlık ve işlem ücretleri sorunlarından kaçınmak için Avalanche subnet teknolojisini kullanarak özel bir blok zinciri geliştirdik. Hedefimiz, üç saat içinde 600 bin işlemi işleyebilecek bir kapasiteye sahip olmak. Tek bir blok zinciri, bu yükü yönetmek için yeterli olmayacaktır. Bu nedenle, Avalanche Subnet teknolojisi sayesinde sharding yaparak fiziksel olarak blok zincirlerini bölüp hedeflediğimiz etkileşim yükünü yönetebiliriz. Bu amaçla, dört farklı subnet kurmayı planlıyoruz. Oy verileri bu blok zincirlerinde saklanmakta ve veri girişleri akıllı sözleşmeler aracılığıyla denetlenmektedir. Bu sayede, yalnızca yetkilendirilmiş kullanıcılar oy verisi girişi yapabilirler.
             </p>
 
-            <div>
-                
-            </div>
+            <img className="invert mt-10 mb-5" src="https://senior.ceng.metu.edu.tr/2023/revo/images/diagram.png">
+            </img>
         </div>
     )
 }
